@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomar Transport Service</title>
+    <link rel="stylesheet" href="style.css" />
+  </head> 
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <img
+          src="https://imgs.search.brave.com/4W5Sy1Wg1jzormsBk01Y6nHfhNmm43GKkANneiCLD0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzQ0LzQ0LzQy/LzM2MF9GXzQ0NDQ0/NDI1MV92RXBZWG9F/MmJablFHRmJzYmR0/bjM2VktUUUhPV0Ey/VC5qcGc"
+          alt="Tomar Transport Service"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#route">Route Check</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Welcome to Tomar Transport Service</h1>
+      <p>
+        Your trusted partner for efficient and reliable transport solutions.
+      </p>
+      <a href="#booking" class="cta-button">Book a Truck</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Truck Booking</h3>
+        <p>Book trucks for your transportation needs with just a few clicks.</p>
+      </div>
+      <div class="service">
+        <h3>Route Check</h3>
+        <p>
+          Find the best routes for your journey with our route check service.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Pricing Estimation</h3>
+        <p>Get an accurate estimate of costs based on weight and distance.</p>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+      <h2>Book a Truck</h2>
+      <form>
+        <label for="pickup">Pickup Location:</label>
+        <input type="text" id="pickup" name="pickup" required />
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required />
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" required />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Route Check Section -->
+    <section id="route">
+      <h2>Check Your Route</h2>
+      <form>
+        <label for="start">Start Location:</label>
+        <input type="text" id="start" name="start" required />
+        <label for="end">End Location:</label>
+        <input type="text" id="end" name="end" required />
+        <button type="submit">Check Route</button>
+      </form>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <p>
+        Our pricing is based on the weight of your cargo and the distance of the
+        journey.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us for any inquiries or support.</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
